@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Movie Archive</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>My Movie Archive</h1>
+
+  <!-- Search bar -->
+  <input id="searchBar" type="text" placeholder="Search movies..." onkeyup="searchMovies()">
+
+  <!-- Button to open Google Form -->
+  <button onclick="window.open('https://forms.gle/YourFormLink','_blank')">Submit New Movie</button>
+
+  <!-- Movie tiles grid -->
+  <div id="movieGrid" class="grid">
+    <!-- Example movie tile -->
+    <div class="movie-tile" data-title="Spiderman">
+      <a href="spiderman.html">
+        <img src="posters/spiderman.jpg" alt="Spiderman poster" class="poster">
+        <h3>Spiderman</h3>
+      </a>
+    </div>
+    <!-- Add more movie tiles similarly -->
+  </div>
+
+  <!-- Ad zones (place ad code here) -->
+  <div class="ad-zone">
+    <!-- Example: PropellerAds or Adsterra script goes here -->
+    <!-- e.g. <script src="https://ads.propellerads.com/..."></script> -->
+    Ad banner placeholder
+  </div>
+</body>
+</html>
